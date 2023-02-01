@@ -1,0 +1,19 @@
+Individual Stats
+
+The correlation between HP and BST is 0.4290007325484966
+The correlation between Attack and BST is 0.5378967764799878
+The correlation between Defense and BST is 0.4049750338037704
+The correlation between Sp.Atk and BST is 0.5202028674834548
+The correlation between Sp.Def and BST is 0.5175801925180024
+The correlation between Speed and BST is 0.31317009920766337
+
+Each individual stat tends to have some type of weak positive correlation with BST
+
+What new features can I create?
+
+What sacrifices to BST or other stats
+are made to make strong attackers/walls?
+
+Sweepers: Att/SpA + Spe
+Tanks: HP + Def/HP + SpD/HP + Def + Spd
+Bulky Attackers: Tanks + Att/Spa
