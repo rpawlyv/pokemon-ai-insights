@@ -1,4 +1,4 @@
-Individual Stats
+Individual Stats for all Pokemon
 
 The correlation between HP and BST is 0.4290007325484966
 The correlation between Attack and BST is 0.5378967764799878
@@ -9,6 +9,17 @@ The correlation between Speed and BST is 0.31317009920766337
 
 Each individual stat tends to have some type of weak positive correlation with BST
 
+Individual Stats compared to BST for Fully Evolved Pokemon
+
+The correlation between HP and BST is 0.22281006690048855
+The correlation between Attack and BST is 0.20722803458795502
+The correlation between Defense and BST is 0.1480379824932616
+The correlation between Sp.Atk and BST is 0.2795469856195315
+The correlation between Sp.Def and BST is 0.2079988980005949
+The correlation between Speed and BST is 0.11651160885774792
+
+Even less correlation is found between individual stats and BST for fully evolved pokemon.
+
 What new features can I create?
 
 What sacrifices to BST or other stats
@@ -17,3 +28,9 @@ are made to make strong attackers/walls?
 Sweepers: Att/SpA + Spe
 Tanks: HP + Def/HP + SpD/HP + Def + Spd
 Bulky Attackers: Tanks + Att/Spa
+
+
+according to K-Means Clustering (5 clusters), here is what the groupings are best described as:
+
+1: Pokemon with High Speed and Attack/SpA (frail attackers)
+2: Pokemon with High Attack and average everything else (think Luxray or Ursaring)
