@@ -1,11 +1,7 @@
-import matplotlib as mpl
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-from sklearn.cluster import KMeans
-import plotly.express as px
-from sklearn.preprocessing import MinMaxScaler
+
 
 
 def poke_stat_regression(df, yStat):

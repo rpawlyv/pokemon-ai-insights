@@ -1,33 +1,45 @@
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import numpy as np
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_classification
 import pandas as pd
-from sklearn.linear_model import LinearRegression
-from sklearn.cluster import KMeans
-import plotly.express as px
-from sklearn.preprocessing import MinMaxScaler
-
 
 
 
 
 df = pd.read_csv("Pokemon_Data.csv")
-evo_df = df[df['Is Fully Evolved']]
-evo_stats_df = evo_df.loc[evo_df["Is Fully Evolved"] & ~evo_df["Is Legendary"], df.columns.to_list()[3: 9]]
+df["Is Fully Evolved"] = df["Is Fully Evolved"].astype(int)
 
-scaler = MinMaxScaler()
-scaler.fit(evo_stats_df)
-X = scaler.transform(evo_stats_df)
-kmeans = KMeans(n_clusters=3, init="k-means++", )
-kmeans.fit(X)
-clusters = pd.DataFrame(X, columns=evo_stats_df.columns)
-clusters['label'] = kmeans.labels_
-polar = clusters.groupby("label").mean().reset_index()
-polar = pd.melt(polar, id_vars=["label"])
-fig4 = px.line_polar(polar, r="value", theta="variable", color="label", line_close=True, height=800, width=1400)
-fig4.show()
 
-pie=clusters.groupby('label').size().reset_index()
-pie.columns=['label','value']
-fig5 = px.pie(pie,values='value',names='label',color=['blue','red','green'])
-fig5.show()
+X = df[["HP", "Attack", "Defense", "Sp.Atk", "Sp.Def", "Speed", "Stat Total"]]
+Y = df["Is Fully Evolved"]
+
+clf = RandomForestClassifier(random_state=42)
+
+clf.fit(X, Y)
+
+for index, value in enumerate(clf.predict(X), 0):
+    if list(Y)[index] != value:
+        print(f"{list(df[index:index+1].Name)} has an error. Its Fully Evolved Data is {Y[index:index+1].values}")
+        print(f"{list(Y)[index]} should be the right answer but the model got {value} instead")
+        print(f"Probability was the following: {clf.predict_proba(X[index:index+1])}")
+        print("")
+print(f"The score without splitting data is {clf.score(X, Y)}")
+print("")
+
+#split test
+
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
+
+clf.fit(X_train, Y_train)
+
+
+
+for index, value in enumerate(clf.predict(X_test), 0):
+    if list(Y_test)[index] != value:
+        print(f"{list(df[index:index+1].Name)} has an error. Its Fully Evolved Data is {Y_test[index:index+1].values}")
+        print(f"{list(Y_test)[index]} should be the right answer but the model got {value} instead")
+        print(f"Probability was the following: {clf.predict_proba(X_test[index:index+1])}")
+        print("")
+print("")
+print(f"The score without splitting data is {clf.score(X_test, Y_test)}")

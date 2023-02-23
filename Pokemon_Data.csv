@@ -1,4 +1,4 @@
-,Pokemon Number,Stat Total,HP,Attack,Defense,Speed,Sp.Def,Sp.Atk,First Type,Second Type,First Ability,Second Ability,Hidden Ability,Generation,Egg Group 1,Egg Group 2,Is Sub Legendary,Is Legendary,Is Mythical,Is Fully Evolved
+Name,Pokemon Number,Stat Total,HP,Attack,Defense,Speed,Sp.Def,Sp.Atk,First Type,Second Type,First Ability,Second Ability,Hidden Ability,Generation,Egg Group 1,Egg Group 2,Is Sub Legendary,Is Legendary,Is Mythical,Is Fully Evolved
 Bulbasaur,1,318,45,49,49,45,65,65,Grass,Poison,Overgrow,None,Chlorophyll,1,Grass,Monster,FALSE,FALSE,FALSE,FALSE
 Ivysaur,2,405,60,62,63,60,80,80,Grass,Poison,Overgrow,None,Chlorophyll,1,Grass,Monster,FALSE,FALSE,FALSE,FALSE
 Venusaur,3,525,80,82,83,80,100,100,Grass,Poison,Overgrow,None,Chlorophyll,1,Grass,Monster,FALSE,FALSE,FALSE,TRUE
@@ -33,10 +33,10 @@ Sandshrew,27,300,50,75,85,40,30,20,Ground,None,Sand Veil,None,Sand Rush,1,Field,
 Sandshrew(Alolan Sandshrew),27,300,50,75,90,40,35,10,Ice,Steel,Snow Cloak,None,Slush Rush,7,Field,None,FALSE,FALSE,FALSE,FALSE
 Sandslash,28,450,75,100,110,65,55,45,Ground,None,Sand Veil,None,Sand Rush,1,Field,None,FALSE,FALSE,FALSE,TRUE
 Sandslash(Alolan Sandslash),28,450,75,100,120,65,65,25,Ice,Steel,Snow Cloak,None,Slush Rush,7,Field,None,FALSE,FALSE,FALSE,TRUE
-Nidoran♀,29,275,55,47,52,41,40,40,Poison,None,Poison Point,Rivalry,Hustle,1,Field,Monster,FALSE,FALSE,FALSE,FALSE
+Nidoran,29,275,55,47,52,41,40,40,Poison,None,Poison Point,Rivalry,Hustle,1,Field,Monster,FALSE,FALSE,FALSE,FALSE
 Nidorina,30,365,70,62,67,56,55,55,Poison,None,Poison Point,Rivalry,Hustle,1,Undiscovered,None,FALSE,FALSE,FALSE,FALSE
 Nidoqueen,31,505,90,92,87,76,85,75,Poison,Ground,Poison Point,Rivalry,Sheer Force,1,Undiscovered,None,FALSE,FALSE,FALSE,TRUE
-Nidoran♂,32,273,46,57,40,50,40,40,Poison,None,Poison Point,Rivalry,Hustle,1,Field,Monster,FALSE,FALSE,FALSE,FALSE
+Nidoran,32,273,46,57,40,50,40,40,Poison,None,Poison Point,Rivalry,Hustle,1,Field,Monster,FALSE,FALSE,FALSE,FALSE
 Nidorino,33,365,61,72,57,65,55,55,Poison,None,Poison Point,Rivalry,Hustle,1,Field,Monster,FALSE,FALSE,FALSE,FALSE
 Nidoking,34,505,81,102,77,85,75,85,Poison,Ground,Poison Point,Rivalry,Sheer Force,1,Field,Monster,FALSE,FALSE,FALSE,TRUE
 Clefairy,35,323,70,45,48,35,65,60,Fairy,None,Cute Charm,Magic Guard,Friend Guard,1,Fairy,None,FALSE,FALSE,FALSE,FALSE
@@ -745,7 +745,7 @@ Spewpa,665,213,45,22,60,29,30,27,Bug,None,Shed Skin,None,Friend Guard,6,Bug,None
 Vivillon,666,411,80,52,50,89,50,90,Bug,Flying,Shield Dust,Compound Eyes,Friend Guard,6,Bug,None,FALSE,FALSE,FALSE,TRUE
 Litleo,667,369,62,50,58,72,54,73,Fire,Normal,Rivalry,Unnerve,Moxie,6,Field,None,FALSE,FALSE,FALSE,FALSE
 Pyroar,668,507,86,68,72,106,66,109,Fire,Normal,Rivalry,Unnerve,Moxie,6,Field,None,FALSE,FALSE,FALSE,TRUE
-Flabébé,669,303,44,38,39,42,79,61,Fairy,None,Flower Veil,None,Symbiosis,6,Fairy,None,FALSE,FALSE,FALSE,FALSE
+Flab??b??,669,303,44,38,39,42,79,61,Fairy,None,Flower Veil,None,Symbiosis,6,Fairy,None,FALSE,FALSE,FALSE,FALSE
 Floette,670,371,54,45,47,52,98,75,Fairy,None,Flower Veil,None,Symbiosis,6,Fairy,None,FALSE,FALSE,FALSE,FALSE
 Florges,671,552,78,65,68,75,154,112,Fairy,None,Flower Veil,None,Symbiosis,6,Fairy,None,FALSE,FALSE,FALSE,TRUE
 Skiddo,672,350,66,65,48,52,57,62,Grass,None,Sap Sipper,None,Grass Pelt,6,Field,None,FALSE,FALSE,FALSE,FALSE

@@ -34,3 +34,51 @@ according to K-Means Clustering (5 clusters), here is what the groupings are bes
 
 1: Pokemon with High Speed and Attack/SpA (frail attackers)
 2: Pokemon with High Attack and average everything else (think Luxray or Ursaring)
+
+
+1	Physical Sweeper
+2	Special Sweeper
+3	Mixed Sweeper
+4	Hazer
+5	Pseudo-Hazer (PHazer)
+6	Physical Tanks
+7	Special Tanks
+8	Walls
+9	Cleric (Healer)
+10	Annoyer/Staller/Drainer
+11	Spiker
+12	Spinner
+13	Baton Passer
+14	<Insert Move Here>'er
+15	Other Jobs
+15.1	Toxi-Shufflers
+15.2	Para-Shufflers
+15.3	Perish Trapper
+15.4	Pivots
+
+1	Physical Sweeper - 1. High Attack 2. High Speed 3. Boosting Moves
+2	Special Sweeper - 1. High Special Attack 2. High Speed 3. Boosting Moves
+3	Mixed Sweeper - 1. High Attack and Special Attack
+4	Physical Tanks - 1. High Defense 2. High Attack/Special Attack 3. High HP
+5	Special Tanks - 1. High Special Defense 2. High Special Attack/Attack 3. High HP
+6	Walls - Must have 2 out of 3: High HP, High Defense, High Special Defense
+
+1	Physical Sweeper - 1. High Attack 2. High Speed 3. Boosting Moves
+2	Special Sweeper - 1. High Special Attack 2. High Speed 3. Boosting Moves
+3	Mixed Sweeper - 1. High Attack and Special Attack
+4	Hazer - learn Haze
+5	Pseudo-Hazer (PHazer) - learns Roar/Whirlwind
+6	Physical Tanks - 1. High Defense 2. High Attack/Special Attack 3. High HP
+7	Special Tanks - 1. High Special Defense 2. High Special Attack/Attack 3. High HP
+8	Walls - Must have 2 out of 3: High HP, High Defense, High Special Defense
+9	Cleric (Healer)- learns healing moves (Heal Bell/Aromatherapy/Wish)
+10	Annoyer/Staller/Drainer
+11	Spiker
+12	Spinner
+13	Baton Passer
+14	<Insert Move Here>'er
+15	Other Jobs
+15.1	Toxi-Shufflers
+15.2	Para-Shufflers
+15.3	Perish Trapper
+15.4	Pivots
